@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- * This program ...
+ * This program tests the classes created for Group Project 4. It uses the class CheckIfTwoObjectsAreEqual
  *
  * author: Group 1 (Louis Anthony, Tristan Barrett, Timothy Bates, Stephen Bailey)
  * course: COP4365C
@@ -21,10 +21,12 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            //
-            CheckIfEqual newCheckIfEqual = new CheckIfEqual();
+            // main code for testing Exercise_20_10
 
-            //
+            // create new CheckIfEqual object
+            CheckIfTwoObjectsAreEqual newCheckIfTwoObjectsAreEqual = new CheckIfTwoObjectsAreEqual();
+
+            // create 6 int objects set with various values
             int intObject1 = 1;
             int intObject2 = 2;
             int intObject3 = 1;
@@ -32,19 +34,17 @@ namespace Main
             int intObject5 = 1;
             int intObject6 = 1;
 
-            //
+            // test int objects
             Console.WriteLine("\nThis object " + intObject1 + " and this object " + intObject2 + " IsEqualTo should be False");
-            Console.WriteLine("the answer is ...... " + newCheckIfEqual.IsEqualTo(intObject1, intObject2));
+            Console.WriteLine("the answer is ...... " + newCheckIfTwoObjectsAreEqual.IsEqualTo(intObject1, intObject2));
 
-            //
             Console.WriteLine("\nThis object " + intObject3 + " and this object " + intObject4 + " IsEqualTo should be False");
-            Console.WriteLine("the answer is ...... " + newCheckIfEqual.IsEqualTo(intObject3, intObject4));
+            Console.WriteLine("the answer is ...... " + newCheckIfTwoObjectsAreEqual.IsEqualTo(intObject3, intObject4));
 
-            //
             Console.WriteLine("\nThis object " + intObject5 + " and this object " + intObject6 + " IsEqualTo should be True");
-            Console.WriteLine("the answer is ...... " + newCheckIfEqual.IsEqualTo(intObject5, intObject6));
+            Console.WriteLine("the answer is ...... " + newCheckIfTwoObjectsAreEqual.IsEqualTo(intObject5, intObject6));
 
-            //
+            // create 6 string objects set with various values
             string stringObject1 = "";
             string stringObject2 = "a";
             string stringObject3 = "b";
@@ -52,19 +52,17 @@ namespace Main
             string stringObject5 = "c";
             string stringObject6 = "c";
 
-            //
+            // test string objects
             Console.WriteLine("\nThis object " + stringObject1 + " and this object " + stringObject2 + " IsEqualTo should be False");
-            Console.WriteLine("the answer is ...... " + newCheckIfEqual.IsEqualTo(stringObject1, stringObject2));
+            Console.WriteLine("the answer is ...... " + newCheckIfTwoObjectsAreEqual.IsEqualTo(stringObject1, stringObject2));
 
-            //
             Console.WriteLine("\nThis object " + stringObject3 + " and this object " + stringObject4 + " IsEqualTo should be False");
-            Console.WriteLine("the answer is ...... " + newCheckIfEqual.IsEqualTo(stringObject3, stringObject4));
+            Console.WriteLine("the answer is ...... " + newCheckIfTwoObjectsAreEqual.IsEqualTo(stringObject3, stringObject4));
 
-            //
             Console.WriteLine("\nThis object " + stringObject5 + " and this object " + stringObject6 + " IsEqualTo should be True");
-            Console.WriteLine("the answer is ...... " + newCheckIfEqual.IsEqualTo(stringObject5, stringObject6));
+            Console.WriteLine("the answer is ...... " + newCheckIfTwoObjectsAreEqual.IsEqualTo(stringObject5, stringObject6));
 
-            //
+            // create 6 objects some set to int objects some set to string objects
             object object1 = stringObject1;
             object object2 = intObject6;
             object object3 = intObject5;
@@ -72,18 +70,17 @@ namespace Main
             object object5 = stringObject5;
             object object6 = stringObject6;
 
-            //
+            // test various objects some set to int objects some set to string objects
             Console.WriteLine("\nThis object " + object1 + " and this object " + object2 + " IsEqualTo should be False");
-            Console.WriteLine("the answer is ...... " + newCheckIfEqual.IsEqualTo(object1, object2));
+            Console.WriteLine("the answer is ...... " + newCheckIfTwoObjectsAreEqual.IsEqualTo(object1, object2));
 
-            //
             Console.WriteLine("\nThis object " + object3 + " and this object " + object4 + " IsEqualTo should be True");
-            Console.WriteLine("the answer is ...... " + newCheckIfEqual.IsEqualTo(object3, object4));
+            Console.WriteLine("the answer is ...... " + newCheckIfTwoObjectsAreEqual.IsEqualTo(object3, object4));
 
-            //
             Console.WriteLine("\nThis object " + object5 + " and this object " + object6 + " IsEqualTo should be True");
-            Console.WriteLine("the answer is ...... " + newCheckIfEqual.IsEqualTo(object5, object6));
+            Console.WriteLine("the answer is ...... " + newCheckIfTwoObjectsAreEqual.IsEqualTo(object5, object6));
 
+            // pause console
             Console.ReadKey();
         }
     }
