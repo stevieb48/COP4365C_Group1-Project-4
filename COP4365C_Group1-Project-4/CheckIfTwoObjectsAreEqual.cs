@@ -20,9 +20,7 @@ namespace Exercise_20_10
     {
         public bool IsEqualTo<T>(T object1, T object2)
         {
-            bool IsEqual = false;
-
-            IsEqual = object1.Equals(object2);
+            bool IsEqual = object1.Equals(object2);
 
             return IsEqual;
         }
