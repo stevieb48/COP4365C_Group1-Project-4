@@ -11,7 +11,7 @@ using System.Threading.Tasks;
  * course: COP4365C
  * assignment: Project 4
  * date: 04/17/2018
- * file name: CheckIfEqual.cs
+ * file name: CheckIfTwoObjectsAreEqual.cs
  * version: 1.0
  */
 namespace Exercise_20_10
