@@ -60,6 +60,8 @@ namespace Main
             {
                 Console.Write(stack.Pop());
             }
+
+            //***********************************************************
             
             // main code for testing Exercise_20_10
             // create new CheckIfEqual object
@@ -74,7 +76,7 @@ namespace Main
             int intObject6 = 1;
 
             // test int objects
-            Console.WriteLine("\nThis object " + intObject1 + " and this object " + intObject2 + " IsEqualTo should be False");
+            Console.WriteLine("\n\nThis object " + intObject1 + " and this object " + intObject2 + " IsEqualTo should be False");
             Console.WriteLine("the answer is ...... " + newCheckIfTwoObjectsAreEqual.IsEqualTo(intObject1, intObject2));
 
             Console.WriteLine("\nThis object " + intObject3 + " and this object " + intObject4 + " IsEqualTo should be False");
