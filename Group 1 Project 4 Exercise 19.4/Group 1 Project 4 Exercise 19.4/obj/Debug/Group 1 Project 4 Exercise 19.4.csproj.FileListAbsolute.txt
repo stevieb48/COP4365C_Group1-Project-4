@@ -5,3 +5,10 @@ C:\Users\Tristan\source\repos\Group 1 Project 4 Exercise 19.4\Group 1 Project 4 
 C:\Users\Tristan\source\repos\Group 1 Project 4 Exercise 19.4\Group 1 Project 4 Exercise 19.4\bin\Debug\Group 1 Project 4 Exercise 19.4.pdb
 C:\Users\Tristan\source\repos\Group 1 Project 4 Exercise 19.4\Group 1 Project 4 Exercise 19.4\obj\Debug\Group 1 Project 4 Exercise 19.4.exe
 C:\Users\Tristan\source\repos\Group 1 Project 4 Exercise 19.4\Group 1 Project 4 Exercise 19.4\obj\Debug\Group 1 Project 4 Exercise 19.4.pdb
+C:\Users\beve_\source\repos\COP4365C_Group1-Project-4\Group 1 Project 4 Exercise 19.4\Group 1 Project 4 Exercise 19.4\bin\Debug\Group 1 Project 4 Exercise 19.4.exe.config
+C:\Users\beve_\source\repos\COP4365C_Group1-Project-4\Group 1 Project 4 Exercise 19.4\Group 1 Project 4 Exercise 19.4\bin\Debug\Group 1 Project 4 Exercise 19.4.exe
+C:\Users\beve_\source\repos\COP4365C_Group1-Project-4\Group 1 Project 4 Exercise 19.4\Group 1 Project 4 Exercise 19.4\bin\Debug\Group 1 Project 4 Exercise 19.4.pdb
+C:\Users\beve_\source\repos\COP4365C_Group1-Project-4\Group 1 Project 4 Exercise 19.4\Group 1 Project 4 Exercise 19.4\obj\Debug\Group 1 Project 4 Exercise 19.4.csprojResolveAssemblyReference.cache
+C:\Users\beve_\source\repos\COP4365C_Group1-Project-4\Group 1 Project 4 Exercise 19.4\Group 1 Project 4 Exercise 19.4\obj\Debug\Group 1 Project 4 Exercise 19.4.csproj.CoreCompileInputs.cache
+C:\Users\beve_\source\repos\COP4365C_Group1-Project-4\Group 1 Project 4 Exercise 19.4\Group 1 Project 4 Exercise 19.4\obj\Debug\Group 1 Project 4 Exercise 19.4.exe
+C:\Users\beve_\source\repos\COP4365C_Group1-Project-4\Group 1 Project 4 Exercise 19.4\Group 1 Project 4 Exercise 19.4\obj\Debug\Group 1 Project 4 Exercise 19.4.pdb

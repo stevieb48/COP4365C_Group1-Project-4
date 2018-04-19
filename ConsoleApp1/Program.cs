@@ -1,5 +1,6 @@
 ﻿using Exercise_20_10;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,8 +22,46 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            // main code for testing Exercise_20_10
+            //
+            //Program19_4 newProgram19_4 = new Program19_4();
 
+            //create stack
+            Stack stack = new Stack();
+
+            //create character array to hold string
+            char[] textLine;
+
+            //tell user what program does
+            Console.WriteLine("Enter any string and this program will reverse it!");
+
+            //read in user input
+            textLine = Console.ReadLine().ToCharArray();
+
+            //add user input to stack
+            foreach (char c in textLine)
+            {
+                stack.Push(c);
+            }
+
+            //confirm user entry
+            Console.WriteLine("\nYou entered: ");
+
+            //show user what they entered
+            foreach (char c in textLine)
+            {
+                Console.Write(c);
+            }
+
+
+            Console.WriteLine("\n\nNow here is the statement reversed!");
+
+            //reverse the user's statement by popping off of the top of the stack.
+            while (stack.Count != 0)
+            {
+                Console.Write(stack.Pop());
+            }
+            
+            // main code for testing Exercise_20_10
             // create new CheckIfEqual object
             CheckIfTwoObjectsAreEqual newCheckIfTwoObjectsAreEqual = new CheckIfTwoObjectsAreEqual();
 
@@ -80,7 +119,7 @@ namespace Main
             Console.WriteLine("\nThis object " + object5 + " and this object " + object6 + " IsEqualTo should be True");
             Console.WriteLine("the answer is ...... " + newCheckIfTwoObjectsAreEqual.IsEqualTo(object5, object6));
 
-            // pause console
+            //holds the console open so it can be read until a key is pressed
             Console.ReadKey();
         }
     }
