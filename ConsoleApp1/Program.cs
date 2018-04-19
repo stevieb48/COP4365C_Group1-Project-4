@@ -22,8 +22,16 @@ namespace Main
     {
         static void Main(string[] args)
         {
-            //
-            //Program19_4 newProgram19_4 = new Program19_4();
+            //Program19_5 after this
+
+
+
+            //holds the console open so it can be read until a key is pressed
+            Console.ReadKey();
+
+            //***********************************************************
+
+            //Program19_4 after this
 
             //create stack
             Stack stack = new Stack();
@@ -61,9 +69,12 @@ namespace Main
                 Console.Write(stack.Pop());
             }
 
+            //holds the console open so it can be read until a key is pressed
+            Console.ReadKey();
+
             //***********************************************************
-            
-            // main code for testing Exercise_20_10
+
+            // Exercise_20_10 after this
             // create new CheckIfEqual object
             CheckIfTwoObjectsAreEqual newCheckIfTwoObjectsAreEqual = new CheckIfTwoObjectsAreEqual();
 
